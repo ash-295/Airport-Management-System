@@ -18,7 +18,7 @@ def display():
 def exit():
     call(["python", quit()])
 
-Message(root, text="Welcome To Airlines",fg="red", font="Impact 36 bold").pack()
+Message(root, text="Welcome To Airport",fg="red", font="Impact 36 bold").pack()
 
 
 Button(root, text="Check-in Details", bg="purple", fg='#00ffff', width=51, padx=1, pady=5,command=checkin).pack()
